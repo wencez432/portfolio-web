@@ -34,7 +34,7 @@ const HeroStyles = styled.div`
     .hero__name {
       font-family: 'Montserrat SemiBold';
       font-size: 7rem;
-      color: var(--white);
+      color: var(--tt-color); /*--white*/
     }
   }
   .hero__img {
@@ -42,7 +42,7 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
+    border: 2px solid var(--bg-btn); /*--gray-1*/
   }
   .hero__info {
     margin-top: -18rem;
@@ -84,7 +84,6 @@ const HeroStyles = styled.div`
     img {
       max-height: 70px;
     }
-  }
   }
 
   @media only screen and (max-width: 768px) {
@@ -130,7 +129,6 @@ const HeroStyles = styled.div`
 `;
 const SocialIcons = styled.a`
   transition: 0.3s ease;
-  color: white;
   border-radius: 40px;
   padding: 8px;
   display: inline-block;

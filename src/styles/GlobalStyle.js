@@ -7,6 +7,15 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root {
+    --bg: #212529;
+    --dbg: #051923;
+    --bg2: #495057;
+    --bg-btn: #ADB5BD;
+    --border: #343A40;
+    --t-color: #ADB5BD;
+    --tt-color: #F8F9FA;
+    --nt-color: #ADB5BD;
+
     --dark-bg: #262626;
     --gray-1: #BCB4B4;
     --gray-2: #363636;
@@ -17,7 +26,7 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 10px;
     font-family: 'Roboto Mono';
-    background-color: var(--dark-bg);
+    background-color: var(--bg2); /*--dark-bg*/
   }
   ul, li {
     list-style: none;

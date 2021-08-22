@@ -25,7 +25,7 @@ const AboutPageStyles = styled.div`
     font-size: 2.2rem;
     margin-bottom: 2rem;
     span {
-      background-color: var(--deep-dark);
+      background-color: var(--bg); /*--deep-dark*/
       padding: 0.5rem;
       border-radius: 8px;
     }
@@ -42,7 +42,7 @@ const AboutPageStyles = styled.div`
   }
   .right {
     img {
-      border: 2px solid var(--gray-1);
+      border: 2px solid var(--bg-btn); /*--gray-1*/
     }
   }
   .about__info__items {
