@@ -6,7 +6,7 @@ import PText from './PText';
 const ContactBannerStyles = styled.div`
   padding: 5rem 0;
   .contactBanner__wrapper {
-    background-color: var(--bg); /*--dep-dark*/
+    background-color: var(--ch-green); /*--dep-dark*/
     border-radius: 12px;
     padding: 5rem 0rem;
     text-align: center;
@@ -14,7 +14,7 @@ const ContactBannerStyles = styled.div`
   .contactBanner__heading {
     font-size: 4rem;
     margin-bottom: 2rem;
-    color: var(--tt-color); /*--white*/
+    color: var(--cultured); /*--white*/
   }
   @media only screen and (max-width: 768px) {
     .contactBanner__heading {

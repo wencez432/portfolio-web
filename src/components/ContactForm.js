@@ -15,8 +15,8 @@ const FormStyle = styled.form`
     width: 100%;
     font-size: 2rem;
     padding: 1.2rem;
-    color: var(--bg-btn); /*--gray-1*/
-    background-color: var(--bg); /*--deep-dark*/
+    color: var(--cd-blue-cray); /*--gray-1*/
+    background-color: var(--ch-green); /*--deep-dark*/
     outline: none;
     border: none;
     border-radius: 8px;
@@ -27,8 +27,8 @@ const FormStyle = styled.form`
     resize: vertical;
   }
   button[type='submit'] {
-    background-color: var(--bg-btn); /*--gray-1*/
-    color: var(--bg); /*--black*/
+    background-color: var(--cd-blue-cray); /*--gray-1*/
+    color: var(--ch-green); /*--black*/
     font-size: 2rem;
     display: inline-block;
     outline: none;

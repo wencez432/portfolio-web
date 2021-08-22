@@ -5,14 +5,14 @@ import PText from './PText';
 
 const ItemStyles = styled.div`
   padding: 2rem;
-  background-color: var(--bg); /*--deep-dark*/
+  background-color: var(--ch-green); /*--deep-dark*/
   display: flex;
   align-items: center;
   gap: 2rem;
   border-radius: 8px;
   margin-bottom: 2rem;
   .icon {
-    background-color: var(--bg2); /*--gray-2*/
+    background-color: var(--dv-grey); /*--gray-2*/
     padding: 1.3rem;
     display: flex;
     align-items: center;

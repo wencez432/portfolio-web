@@ -34,7 +34,7 @@ const HeroStyles = styled.div`
     .hero__name {
       font-family: 'Montserrat SemiBold';
       font-size: 7rem;
-      color: var(--tt-color); /*--white*/
+      color: var(--cultured); /*--white*/
     }
   }
   .hero__img {
@@ -42,7 +42,7 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--bg-btn); /*--gray-1*/
+    border: 2px solid var(--cd-blue-cray); /*--gray-1*/
   }
   .hero__info {
     margin-top: -18rem;
@@ -135,7 +135,7 @@ const SocialIcons = styled.a`
   transform: rotate(-90deg);
   margin-bottom: 2rem;
   &:hover {
-    background-color: var(--deep-dark);
+    background-color: var(--ch-green); /*--deep-dark*/
     cursor: pointer;
   }
 `;

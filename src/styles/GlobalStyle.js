@@ -7,14 +7,11 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root {
-    --bg: #212529;
-    --dbg: #051923;
-    --bg2: #495057;
-    --bg-btn: #ADB5BD;
-    --border: #343A40;
-    --t-color: #ADB5BD;
-    --tt-color: #F8F9FA;
-    --nt-color: #ADB5BD;
+    --ch-green: #212529;
+    --gunmetal: #343A40;
+    --dv-grey: #495057;
+    --cd-blue-cray: #ADB5BD;
+    --cultured: #F8F9FA;
 
     --dark-bg: #262626;
     --gray-1: #BCB4B4;
@@ -26,7 +23,7 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 10px;
     font-family: 'Roboto Mono';
-    background-color: var(--bg2); /*--dark-bg*/
+    background-color: var(--dv-grey); /*--dark-bg*/
   }
   ul, li {
     list-style: none;
@@ -51,14 +48,14 @@ const GlobalStyles = createGlobalStyle`
   [data-scrollbar] {
     height: 100vh;
     overflow: hidden;
-    background-color: var(--gray-1);
+    background-color: var(--cd-blue-cray); /*--gray-1*/
     .scroll-content {
       background-color: var(--dark-bg);
     }
     .scrollbar-track.scrollbar-track-y {
       background: var(--deep-dark);
       .scrollbar-thumb-y {
-        background: var(--gray-1);
+        background: var(--cd-blue-cray); /*--gray-1*/
       }
     }
   }
