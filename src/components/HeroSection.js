@@ -154,8 +154,8 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I'm a freelance developer. I love to design and make new web
-              experiences for the people.
+              I'm a computer science student interested in AI working as a
+              freelance developer.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>

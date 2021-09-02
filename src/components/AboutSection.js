@@ -81,7 +81,8 @@ export default function AboutSection() {
           />
           <PText>
             I'm a computer sciencie student from Lima, Peru. Interested in
-            Machine Learning and Software Development.
+            Machine Learning, Deep Learning, Cuputer Vision and Software
+            Development.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

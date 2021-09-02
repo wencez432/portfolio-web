@@ -83,10 +83,10 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Wenses Penadillo</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A freelance developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from Lima, Peru. Since my childhood, i love art and
+                  I am from Lima, Peru. Since my childhood, i love coding and
                   design. I always try to design stuff with my unique point of
                   view. I also love to create things that can be usefull to
                   others.
@@ -112,15 +112,14 @@ export default function About() {
           <div className="about__info__items">
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
-
               <AboutInfoItem
                 title="University"
                 items={['Universidad Nacional de Ingenieria']}
               />
             </div>
+
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
-
               <AboutInfoItem
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'React']}
@@ -129,13 +128,17 @@ export default function About() {
                 title="BackEnd"
                 items={['Node', 'Express', 'Flask']}
               />
-              <AboutInfoItem title="Design" items={['Photoshop', 'Figma']} />
+              <AboutInfoItem title="Design" items={['Figma']} />
             </div>
+
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
-
               <AboutInfoItem
                 title="2018-Present"
+                items={['Computer Science Student']}
+              />
+              <AboutInfoItem
+                title="2021-Present"
                 items={['Freelance Developer']}
               />
             </div>
