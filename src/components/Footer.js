@@ -5,7 +5,7 @@ import PText from './PText';
 
 const FooterStyle = styled.div`
   background-color: var(--ch-green); /*--deep-dark*/
-  padding-top: 10rem;
+  padding-top: 5rem;
   .container {
     display: flex;
     gap: 3rem;
