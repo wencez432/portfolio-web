@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FooterCol from './FooterCol';
 import PText from './PText';
+import personalData from '../assets/data/personal';
 
 const FooterStyle = styled.div`
   background-color: var(--ch-green); /*--deep-dark*/
@@ -79,11 +80,11 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+51 919515954',
+                title: personalData.celcode,
                 path: 'tel:+519195954',
               },
               {
-                title: 'wpenadillol@uni.pe',
+                title: personalData.emailuni,
                 path: 'mailto:wpenadillol@uni.pe',
               },
             ]}
@@ -95,19 +96,19 @@ export default function Footer() {
             links={[
               {
                 title: 'GitHub',
-                path: 'http://github.com',
+                path: personalData.socialLinks.github,
               },
               {
                 title: 'LinkedIn',
-                path: 'http://linkedin.com',
+                path: personalData.socialLinks.linkedin,
               },
               {
                 title: 'Twitter',
-                path: 'http://twitter.com',
+                path: personalData.socialLinks.twitter,
               },
               {
                 title: 'Facebook',
-                path: 'http://facebook.com',
+                path: personalData.socialLinks.facebook,
               },
             ]}
           />
