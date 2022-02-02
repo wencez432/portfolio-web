@@ -79,8 +79,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+51 926387363',
-                path: 'tel:+51926387363',
+                title: '+51 919515954',
+                path: 'tel:+519195954',
               },
               {
                 title: 'wpenadillol@uni.pe',
