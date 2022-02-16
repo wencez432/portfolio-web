@@ -4,8 +4,32 @@ import UTrackerImg from '../images/utracker.jpg';
 import GreenCtgImg from '../images/greenctg.jpg';
 import CoinTrackerImg from '../images/cointracker.jpg';
 import CavinImg from '../images/cavinimg.jpg';
+import Siminsa from '../images/siminsa.png';
+import TutoriasUNI from '../images/tutoriasuni.png';
+import MatematicaFC from '../images/matematicafc.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'SIMINSA',
+    desc:
+      'Sistema integral para el MINSA que permite registrar datos de pacientes e inmunizaciones, monitorear pacientes contagiados o vulnerables.',
+    img: Siminsa,
+  },
+  {
+    id: uuidv4(),
+    name: 'TutoríasUNI',
+    desc:
+      'Sistema que permite la creación y uso de tutorías, cuenta con un Chatbot que ayuda a encontrar los cursos.',
+    img: TutoriasUNI,
+  },
+  {
+    id: uuidv4(),
+    name: 'Matemática FC',
+    desc:
+      'Propuesta de diseño de una nueva pagina web para la escuela de matemática de la FC-UNI.',
+    img: MatematicaFC,
+  },
   {
     id: uuidv4(),
     name: 'U Tracker',
