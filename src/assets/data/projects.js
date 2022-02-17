@@ -30,7 +30,7 @@ const projects = [
       'Propuesta de diseño de una nueva pagina web para la escuela de matemática de la FC-UNI.',
     img: MatematicaFC,
   },
-  {
+  /* {
     id: uuidv4(),
     name: 'U Tracker',
     desc:
@@ -64,7 +64,7 @@ const projects = [
     desc:
       'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
     img: ProjectImg,
-  },
+  }, */
 ];
 
 export default projects;
