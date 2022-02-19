@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { MdClose, MdMenu } from 'react-icons/md';
+import { MdClose, MdMenu, MdWork, MdContactMail } from 'react-icons/md';
+import { AiFillHome } from 'react-icons/ai';
+import { FaUserAlt } from 'react-icons/fa';
 
 const NavStyles = styled.nav`
   position: fixed;
@@ -12,7 +14,7 @@ const NavStyles = styled.nav`
   padding: 1rem 0;
   background: var(--ch-green); /*--dark-bg*/
   ul {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
     width: 90%;
     text-align: center;
@@ -20,6 +22,13 @@ const NavStyles = styled.nav`
       display: inline-block;
       border-radius: 8px;
       transition: 0.3s ease background-color;
+      a {
+        display: flex;
+      }
+      svg {
+        max-height: 18px;
+        margin: auto 5px;
+      }
       &:hover {
         background-color: var(--gunmetal); /*--deep-dark*/
       }
@@ -27,13 +36,16 @@ const NavStyles = styled.nav`
     a {
       display: inline-block;
       font-family: 'RobotoMono Regular';
-      padding: 1rem 2rem;
+      padding: 1rem 1.5rem;
       font-size: 2rem;
       color: var(--cd-blue-cray); /*--gray-1*/
       outline: none;
     }
     .active {
       color: var(--cultured); /*--white*/
+      svg {
+        fill: var(--cultured);
+      }
     }
   }
   .mobile-menu-icon {
@@ -82,6 +94,10 @@ const NavStyles = styled.nav`
       li {
         display: block;
         margin-bottom: 1rem;
+
+        svg {
+          max-width: 18px;
+        }
       }
     }
   }
@@ -120,7 +136,7 @@ export default function NavMenu() {
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
           >
-            Home
+            <AiFillHome /> Home
           </NavLink>
         </li>
         <li>
@@ -131,7 +147,7 @@ export default function NavMenu() {
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
           >
-            About
+            <FaUserAlt /> About
           </NavLink>
         </li>
         <li>
@@ -142,7 +158,7 @@ export default function NavMenu() {
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
           >
-            Projects
+            <MdWork /> Projects
           </NavLink>
         </li>
         <li>
@@ -153,7 +169,7 @@ export default function NavMenu() {
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
           >
-            Contact
+            <MdContactMail /> Contact
           </NavLink>
         </li>
       </ul>
